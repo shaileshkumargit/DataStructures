@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace DataStructures
 {
-    class Program
+    class Array1
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
