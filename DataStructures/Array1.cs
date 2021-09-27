@@ -13,7 +13,7 @@ namespace DataStructures
             int swap = 0;
             //To read elements of an array.
             for (int i = 0; i < arr.Length; i++)
-            {//to perform comparison of index values and swap accordingly.
+            {//to perform comparision of index values and swap accordingly.
                 for (int j = i + 1; j < arr.Length; j++)
                 {
                     if (arr[i] >= arr[j])
@@ -26,7 +26,7 @@ namespace DataStructures
                 Console.Write(arr[i] + " ");
             }
         }
-        public static void DescindingOrder(int[] arr)
+        public static void DescendingOrder(int[] arr)
         {
             int swap = 0;
             for(int i = 0; i < arr.Length; i++)
@@ -52,7 +52,7 @@ namespace DataStructures
             p.SortArray(num);
             Console.WriteLine(" \n");
             Console.WriteLine("Elements are sorted in Descending order: ");
-            DescindingOrder(num);
+            DescendingOrder(num);
             Console.ReadLine();
         }
     }
