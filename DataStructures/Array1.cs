@@ -8,7 +8,7 @@ namespace DataStructures
 { //sort an array elements in an ascending and descending order without using built-in functions.
     class Array1
     {
-        public void SortArray(int[] arr)
+        public void AscendingOrder(int[] arr)
         {
             int swap = 0;
             //To read elements of an array.
@@ -49,7 +49,7 @@ namespace DataStructures
             int[] num = { 22, 50, 11, 2, 49, 79, 90 };
             Array1 p = new Array1();
             Console.WriteLine("Elements are sorted in Ascending order: ");
-            p.SortArray(num);
+            p.AscendingOrder(num);
             Console.WriteLine(" \n");
             Console.WriteLine("Elements are sorted in Descending order: ");
             DescendingOrder(num);
